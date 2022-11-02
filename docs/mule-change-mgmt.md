@@ -1,0 +1,7 @@
+## Principles
+ * Source code for MuleSoft APIs are managed in GitHub Repositories.  Each API has it's own repository.  The "main" branch of the repository represents the code that should be deployed in production.
+ * There should be a 1:1 relationship between PRODUCTION Github Pull Requests (PRs to main) and ServiceNow Change Requests. An approved change record is required for every production API deployment.   Change Requests are NOT required to merge code to other branches within GitHub (features, develop, test, release).
+ * Developers create Pull Requests to signal their code is ready to go to production.  When a developer submits the Pull Request, an administrative review is triggered within GitHub.  Generally speaking, change requests should be created in ServiceNow at the same time as preparing the pull request. 
+ * Deployments (eg. Production Changes) are controlled by administrators in GitHub; they are tightly controlled and automated.  Pull Request should NOT be approved without a corresponding approved Change Record.  When a Pull Request is approved in GitHub, the source code will be merged to the main branch and the API is automatically deployed to the production environment using GitHub Actions.   
+ * In order to record "which API is changing", each MuleSoft API should exist in the ServiceNow CMDB as a valid CI.  The class of the CI and data contained is still to be aligned to be aligned with the Configuration Management Team.
+
