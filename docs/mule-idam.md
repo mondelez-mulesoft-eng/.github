@@ -21,7 +21,7 @@ At a high level, here's the process:
 
 
 ## Additional Information
-More detailed information is available for you once you have been added to this GitHub Organization.  You can view the (private version of this documentation here)[https://github.com/mondelez-mulesoft-eng/platform-project-tasks/wiki/MuleSoft-Identity-Management].
+More detailed information is available for you once you have been added to this GitHub Organization.  You can view the [private version of this documentation here](https://github.com/mondelez-mulesoft-eng/platform-project-tasks/wiki/MuleSoft-Identity-Management).
 
 
 
