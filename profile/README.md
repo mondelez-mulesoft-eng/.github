@@ -1,5 +1,5 @@
 ## Welcome to the Mondelez MuleSoft Engineering Team!
-This is a Private GitHub Organization is home for the development of MuleSoft APIs for the Mondelez International Company.  You must be a member of this Organization to actively contribute to API development for MDLZ.
+This Private GitHub Organization is home for the development of MuleSoft APIs for the Mondelez International Company.  You must be a member of this Organization to actively contribute to API development for MDLZ.
 
 ## Requesting Access:
 In order to contribute/develop on the MDLZ platform, new developers will need to:
