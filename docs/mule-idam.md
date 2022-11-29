@@ -12,12 +12,24 @@ Access to the Mondelez MuleSoft Platform is controlled/governed by existing MDLZ
 ## Requesting Access
 Access to MuleSoft can be requested through [Access Center](https://accesscenter.mdlz.com/). The request process is very straightforward and can be started by anyone in the organization with a valid Mondelez User Account.
 
-At a high level, here's the process:
-* Go to [Access Center](https://accesscenter.mdlz.com/)
-* From the menu, select "Self Service Group Management" > "Active Directory (AD) Group Management."
-* Choose "Add/Remove Members"
-* Search for groups that start with "MDZ MuleSoft".  You'll probably want the "Developer" group and Submit.
-* Once that request is approved (by the Entitlement Role Owner), Sailpoint will add the user to the AD Group and the user will now be able to access MuleSoft using the SSO custom-domain logon page.
+1. Navigate to [Access Center](https://accesscenter.mdlz.com/home.jsf), expand the navigation menu and select Self-Service Group Management > Active Directory (AD) Group Management. <br>
+![image](images/access_center_1.png)
+
+
+2. Select the appropriate options for Adding access.  "Add/Remove Members" and "Add Members".  Click Next to advance.
+![image](images/access_center_2.png)
+![image](images/access_center_3.png)
+3. Search for and select the `MDZ MuleSoft Developer` group.  
+![image](images/access_center_4.png)
+Once selected, the details of the group will be displayed.  You will see the group owner as well as the current members of the group.  
+![image](images/access_center_5.png)
+4.  Scroll down to the "Add Members" section.  Search for the user you wish to add (by name or email address) and ensure they show up in the "Selected Members to Add" list.  
+![image](images/access_center_6.png)
+
+5. Once you have added all users, you can click the SUBMIT button.  
+6. You will be taken to a final confirmation screen where you must click "CONFIRM" to complete the submission.
+
+Requests are subject to approval before the user is added. The requester will receive an email when fulfillment is completed.
 
 
 ## Additional Information
